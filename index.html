@@ -1,0 +1,156 @@
+<html>
+    <head>
+        
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+     
+    </head>
+    <body>
+        <div class="title"><h2><div id="Asquero">Asquero</div></h2></div>
+            <div class="nav"><div id="nav">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Domains</a></li>
+                 <li><a href="#">Subscription</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            </div></div>
+        
+<div class="head">
+            <div class="search">
+              <center><input type="text" id="head" placeholder="Search your favorable course" size=50> <input type="button" id="search"value="Search"></center>
+            </div>
+</div>
+
+<div class="courses">
+<div class="xop-section">
+    <center><h2><font color="white">Top Courses</font></h2></center>
+
+        
+    
+    <ul class="xop-grid">   
+       <li>
+           <div class="xop-box xop-img-1">
+            <a href="#">
+                <div class="xop-info">
+                  <center> <h3>Python</h3></center>
+             
+            </div></a>
+        </div>
+       </li>
+       <li>
+           <div class="xop-box xop-img-2">
+               <div id="js">            <a href="https://drive.google.com/file/d/1Sc-CHBvC3rVrRiEMANG89cTpaW3YvqMr/view?usp=sharing">
+              <div class="xop-info">
+                <h3>JavaScript</h3>
+               
+            </div>
+            </a>
+            </div>
+        </div>
+       </li>
+       <li>
+           <div class="xop-box xop-img-3">
+            <a href="#">
+                <div class="xop-info">
+                <h3>ReactJS</h3>
+               
+            </div>
+            </a>
+        </div>
+       </li>
+       <li>
+           <div class="xop-box xop-img-4">
+            <a href="#">
+                <div class="xop-info">
+                    <h3>NodeJS</h3>
+                </a>
+        </div>
+       </li>
+       <li>
+           <div class="xop-box xop-img-6">
+            <a href="#">
+              <div class="xop-info">  <h3>VueJS</h3>
+                
+           </div> </a>
+        </div>
+       </li>
+       <li>
+           <div class="xop-box xop-img-5">
+            <a href="#">
+               <div class="xop-info">
+                <h3>MongoDB</h3>
+                
+            </div></a>
+        </div>
+       </li>
+   </ul> 
+</div>
+<center>
+<input type="button" id="more-courses" value="More Courses >>">
+</center>
+</center></div></div>
+
+
+
+<div class="FAQ">
+    <div id="FAQ"><h2><font color="indigo">FAQ's</font></h2></div>
+<button type="button" class="collapsible">What is Asquero?</button>
+<div class="content">
+  <p>Asquero is a free online courses platform.</p>
+</div>
+<button type="button" class="collapsible">Why Asquero?</button>
+<div class="content">
+  <p>Asquero plays a major role is online course platform community all courses in this platform have high accredated by great course instructors.</p>
+</div>
+<button type="button" class="collapsible">How to learn here?</button>
+<div class="content">
+  <p>GO to course section and select your favorable course then enroll and start explore.</p>
+</div>
+<button type="button" class="collapsible">What type of courses having here?</button>
+<div class="content">
+  <p>There are lots of domain courses like JavaScript,Python, ReactJS, Machine Learning etc.</p>
+</div>
+</div>
+<div class="subscription">
+    <div class="subscribe">
+    <input type="text" id="subscribe"placeholder="Enter your E-mail id"><br>
+    <br>
+    <input type="button"  value="Subscribe"id="subscribe-button">
+   <center><h3><font color="white">Please subscribe for our daily newsletter</font></h3></center>
+   <div class="contact">
+    <div id="contact"><center><h2>
+        Contact and Community 
+    </h2></center>
+</div><div class="icon">
+<center><i style="font-size:30px;" class="fa fa-twitter"></i>       <i style="font-size:30px;"class="fa fa-linkedin"></i> <i style="font-size:30px;"class="fa fa-instagram"></i>  
+
+<i style="font-size:30px;" class="fa fa-facebook"></i>  </center>
+</div></div></div></div>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+    </body>
+</html>
